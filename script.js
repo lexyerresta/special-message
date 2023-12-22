@@ -11,7 +11,7 @@ document.addEventListener('click', function() {
 window.onload = function() {
   var audio = document.getElementById('audio');
   audio.volume = 0.5; // Sets the volume to 50%
-  // audio.currentTime = 0.8; // Set to 3 seconds
+  audio.currentTime = 0.8; // Set to 3 seconds
 };
 
 yesBtn.addEventListener("click", () => {
