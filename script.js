@@ -15,7 +15,7 @@ window.onload = function() {
 };
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yay, see you tomorrow!";
+  question.innerHTML = "Yay, see you on 25th December!";
   gif.src =
     "https://media.giphy.com/media/65wE7Exx1eKZGYIP0G/giphy.gif";
 });
