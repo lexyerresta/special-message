@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: whitesmoke;
+    background: #343541;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -53,4 +53,8 @@ button:nth-child(2) {
     margin-right: -200px;
     background: white;
     color: #e94d58;
+}
+
+#audio {
+    display: none;
 }

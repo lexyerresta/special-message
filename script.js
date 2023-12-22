@@ -4,6 +4,16 @@ const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
+document.addEventListener('click', function() {
+  document.getElementById('audio').play();
+});
+
+window.onload = function() {
+  var audio = document.getElementById('audio');
+  audio.volume = 0.5; // Sets the volume to 50%
+  audio.currentTime = 0.8; // Set to 3 seconds
+};
+
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Yay, see you tomorrow!";
   gif.src =
@@ -20,4 +30,5 @@ noBtn.addEventListener("mouseover", () => {
 
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
+  
 });
